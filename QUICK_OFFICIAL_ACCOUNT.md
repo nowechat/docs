@@ -5,6 +5,7 @@
 可以是自己的公众号，也可以申请一个测试公众号。
 
 > 测试公众号申请地址： https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
+> 
 > 也可以走接口测试流程：http://mp.weixin.qq.com/debug/cgi-bin/apiinfo
 
 **记住上公众号的 AppId, AppSecret 等信息哦。**
