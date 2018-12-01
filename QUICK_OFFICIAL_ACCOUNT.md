@@ -3,10 +3,11 @@
 老流程，首先肯定是体验一把。
 ## 搞一个公众号
 可以是自己的公众号，也可以申请一个测试公众号。
-测试公众号申请地址： https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
-也可以走接口测试流程：http://mp.weixin.qq.com/debug/cgi-bin/apiinfo
 
-记住上公众号的 AppId, AppSecret 等信息哦。
+> 测试公众号申请地址： https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
+> 也可以走接口测试流程：http://mp.weixin.qq.com/debug/cgi-bin/apiinfo
+
+**记住上公众号的 AppId, AppSecret 等信息哦。**
 
 ## 写代码啦
 ### 首先要有配置
@@ -21,7 +22,7 @@ public String test(){
 ......
 ...
 ```
-在接下来的实例化中要用到。（这个时候有 `Spring Boot` 就好了，直接注入）
+在接下来的实例化中要用到。（这个时候有 `Spring Boot` 就好了，直接注入，所以你也可以直接继承Config类注入，只是一个Bean）
 
 ### 然后处理消息有一个类
 作为消息处理一大块，必须实现定义的 `MessageHandler` 接口。
